@@ -90,7 +90,7 @@ div.top-container {
 
 .bottom-container{
     background-color: #66BFBF;
-    padding:7%0 20px;
+    padding:5% 0 20px;
 }
 
 .intro{
@@ -109,7 +109,7 @@ div.top-container {
     justify-content: center;
 }
 
-.web-dev{
+.web-dev, .programming{
     /* width:25%; */
     /* float:left; */
     /* margin-right:30px; */
@@ -122,18 +122,6 @@ div.top-container {
     align-self: center;
 }
 
-.programming{
-    /* width:25%; */
-    /* float:right; */
-    /* margin-left:30px; */
-    flex-basis: 26%;
-    width:25%;
-    height:50%;
-    /* float:left; */
-    margin:7% 30px;
-    transition: transform .7s ease;
-    align-self: center;
-}
 
 .databases{
     /* width:25%; */
@@ -158,35 +146,7 @@ div.top-container {
     justify-content: center;
 }
 
-.face{
-    /* width:35%;
-    float:left;
-    margin-right:30px;
-    transition: transform .7s ease; */
-    flex-basis: 26%;
-    width:25%;
-    height:50%;
-    /* float:left; */
-    margin:7% 30px;
-    transition: transform .7s ease;
-    align-self: center;
-}
-
-.editing{
-    /* width:35%;
-    float:right;
-    margin-left:30px;
-    transition: transform .7s ease; */
-    flex-basis: 26%;
-    width:25%;
-    height:50%;
-    /* float:left; */
-    margin:7% 30px;
-    transition: transform .7s ease;
-    align-self: center;
-}
-
-.text{
+.face, .editing, .text, .todo, .ENotes{
     /* width:35%;
     float:left;
     margin-right:30px;
@@ -206,19 +166,24 @@ div.top-container {
 
 .experience-row{
     width:75%;
-    margin:7% auto;
+    margin:10% auto;
     text-align: center;
     line-height: 2;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
 }
-.experience-front-end{
+.reverseWrap{
     flex-wrap:wrap-reverse;
 }
 .experience-flex{
+    margin: 10px auto;
     flex-basis: 63%;
     align-self: center;
+}
+.experience-flex ul, .experience-flex p{
+    font-size:1.5vw;
+    text-align: left;
 }
 .react{
     flex-basis: 26%;
@@ -246,12 +211,33 @@ div.top-container {
 }
 
 .tech-list{
-    padding: 0 100px;
     text-align: left;
+    padding: 0 100px;
 }
 .contact-message{
     width:40%;
     margin:40px auto 60px;
+}
+
+.rowFlex{
+    display:flex;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+.columnFlex{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.linkedin, .github, .email{
+    width:30%;
+    height:50%;
+    margin:10px;
 }
 
 
