@@ -177,7 +177,7 @@ div.top-container {
     flex-wrap:wrap-reverse;
 }
 .experience-flex{
-    margin: 10px auto;
+    margin: 10px 20px;
     flex-basis: 63%;
     align-self: center;
 }
