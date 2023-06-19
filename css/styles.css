@@ -55,16 +55,20 @@ div.top-container {
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
+    
 }
+
 
 .profile{
     flex-basis: 60%;
+
 }
 
 .anshika-img {
     width: 30vw;
     margin:30px;
     align-self: center;
+    
 }
 
 .pro{
@@ -96,7 +100,7 @@ div.top-container {
 .intro{
     /* width:60%; */
     margin:20px 0;
-    /* text-align: left; */
+    text-align: left;
 }
 
 .skill-row{
@@ -182,7 +186,7 @@ div.top-container {
     align-self: center;
 }
 .experience-flex ul, .experience-flex p{
-    font-size:1.5vw;
+    font-size:2.5vw;
     text-align: left;
 }
 .react{
@@ -302,7 +306,8 @@ div.top-container {
     }
   }
   p {
-    font-size: calc(0.5rem + 1.2vw);
+    font-size: calc(0.5rem + 1.5vw);
+
   }
   
   @media (min-width: 1200px) {
@@ -315,5 +320,12 @@ div.top-container {
     .experience-flex{
         flex-basis:63%;
     }
+    .experience-flex p{
+        font-size:1.5vw;
+    }
     
+  }
+
+  .intro p{
+    text-align: justify;
   }
