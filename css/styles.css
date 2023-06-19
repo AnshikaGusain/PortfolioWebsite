@@ -178,7 +178,7 @@ div.top-container {
 }
 .experience-flex{
     margin: 10px 20px;
-    flex-basis: 63%;
+    flex-basis: auto;
     align-self: center;
 }
 .experience-flex ul, .experience-flex p{
@@ -309,4 +309,11 @@ div.top-container {
     p {
       font-size: 1rem;
     }
+    
+  }
+  @media (min-width: 1000px) {
+    .experience-flex{
+        flex-basis:63%;
+    }
+    
   }
