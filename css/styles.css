@@ -185,7 +185,14 @@ div.top-container {
     flex-basis: auto;
     align-self: center;
 }
-.experience-flex ul, .experience-flex p{
+.experience-flex ul{
+    font-size: 1.5vw;
+    text-align: left;
+}
+.experience-flex ol{
+    text-align: left;
+}
+.experience-flex p{
     font-size:2.5vw;
     text-align: left;
 }
